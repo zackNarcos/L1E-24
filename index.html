@@ -6,15 +6,33 @@
 	<title>Cours 3</title>
 </head>
 <style type="text/css">
+	#ligne-1 {
+		color: yellow !important;
+	}
 	td {
 		/*couleur d'arriere plan*/
 		background: red; 
 		/*couleur du text*/
 		color: white;
 	}
+
+	h3 {
+		/*couleur d'arriere plan*/
+		background: red; 
+		/*couleur du text*/
+		color: white;
+	}
+
+
+	#mon-id {
+		background: darkblue;
+	}
+
+
 </style>
 <body>
 	<h2>Liste de presence</h2>
+
 	<table border style="background: cyan;">
 		<thead style="background: grey ; color: white;" >
 			<tr>
@@ -27,13 +45,13 @@
 			</tr>
 		</thead>
 		<tbody>
-			<tr>
+			<tr id="ligne-1">
 				<td>1</td>
 				<td>Mon Nom</td>
 				<td>Mon Prenom</td>
 				<td></td>
 				<td></td>
-				<td>text</td>
+				<td id="mon-id">text</td>
 				<td></td>
 			</tr>
 			<tr>
@@ -42,7 +60,7 @@
 				<td>Mon Prenom</td>
 				<td></td>
 				<td></td>
-				<td st>Emargement</td>
+				<td>Emargement</td>
 			</tr>
 		</tbody>
 	</table>
