@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>
+		Corection form
+	</title>
+</head>
+<style type="text/css">
+	.form-input{
+		border: grey solid 1px;
+	}
+ 	form{
+ 		background: lightgray;
+ 	}
+</style>
+<body>
+	<form>
+		<label>Nom:</label>
+		<input type="text" name="name" placeholder="saisissez votre nom" required class="form-input">
+
+		<br>
+		<label>Email:</label>
+		<input type="email" name="email" placeholder="saisissez votre Email" required class="form-input">
+		<br>
+		<label>Password:</label>
+		<input type="number" name="password">
+		<br>
+		<input type="number" name="" max="10">
+		<br>
+		<label>Genre:</label>
+		<br> <br>
+		<input type="radio" name="genre">
+		<label>Homme</label>
+		<br>
+		<input type="radio" name="genre">
+		<label>Femme</label>
+		<br>
+		<input type="radio" name="genre">
+		<label>Autre</label>
+		<br>
+		<label>Pays</label>
+		<select name="pays">
+			<option value="senegal">SENEGAL</option>
+			<option value="canada">GAMBIE</option>
+			<option selected>Choisissez un pays</option>
+		</select>
+		<br>
+		<input type="checkbox">
+		<label>Je suis INTELLIGENT</label>
+		<br>
+		<textarea maxlength="100"></textarea>
+		<button type="reset">reset</button>
+		<button>envoyer</button>
+
+	</form>
+
+</body>
+</html>
